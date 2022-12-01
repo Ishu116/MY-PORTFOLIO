@@ -11,7 +11,7 @@ const Header = () => {
     <div className='container header__container'>
       <div className='Container__head'>
       <h2 className='Header__font'>Hello I am</h2>
-      <h1 className='Header__font'>Jainendra</h1>
+      <h1 className='Header__font' contentEditable='true'>Jainendra</h1>
       <h2 className='text-light'><ReactRotatingText items={['MERN Stack Developer','Coding Enthusiast']} /></h2>
       </div>
       <CTA />

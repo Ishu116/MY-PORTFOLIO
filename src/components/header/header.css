@@ -76,12 +76,11 @@ font-weight: 700;
 }
 
 .me1{
-    
     height: 20rem;
     width: 20rem;
     /* border: 1px solid var(--color-primary); */
     border-radius: 50%;
-    background: var(--color-light);
+    /* background: var(--color-light); */
 }
 
 .scroll__down{

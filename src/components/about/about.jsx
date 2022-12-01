@@ -35,8 +35,11 @@ const about = () => {
             <small>10+ Projects</small>
           </article>
         </div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis deleniti minima, optio doloremque laboriosam omnis velit accusantium cumque alias error nostrum, veritatis possimus necessitatibus perferendis dolore. Provident nisi mollitia eum!
+        <p contentEditable='true'>
+        Hey there! I'm Jainendra, a student at SRM Institute of Science and Technology. I have learnt a lot and I still have a lot to learn. I really like Technological stuff and would like to work in this field. If you have any advice then DM me . 
+
+Nice meeting you.
+          {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis deleniti minima, optio doloremque laboriosam omnis velit accusantium cumque alias error nostrum, veritatis possimus necessitatibus perferendis dolore. Provident nisi mollitia eum! */}
         </p>
         <a href='#contact' className='btn btn-primary'>Let's Talk</a>
       </div>
