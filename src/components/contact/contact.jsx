@@ -10,7 +10,7 @@ import emailjs from 'emailjs-com';
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     emailjs.sendForm('service_tvfys9o', 'template_bmqlp6k', form.current, 'e3FesPi4XUj6lEVeV');
   };
   return (

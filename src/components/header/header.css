@@ -56,31 +56,16 @@ font-family: 'Dancing Script', cursive;
 font-weight: 700;
 }
 
-/* .me{
+.me{
     background:linear-gradient(var(--color-primary), transparent) ;
     width: 22rem;
-    height: 25rem;
+    height: 22rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
-} */
-
-.me{
-    margin-top: 6rem;
-    display: flex;
-    justify-content: center;
-    
-}
-
-.me1{
-    height: 20rem;
-    width: 20rem;
-    /* border: 1px solid var(--color-primary); */
-    border-radius: 50%;
-    /* background: var(--color-light); */
+    overflow: hidden; 
+    padding: 2.5rem 0 0 2.5rem;
 }
 
 .scroll__down{
@@ -96,7 +81,7 @@ font-weight: 700;
     header{
         height: 68vh;
     }
-    /* .me{
+    .me{
         bottom: 0;
         background:linear-gradient(var(--color-primary), transparent) ;
         width: 22rem;
@@ -107,7 +92,7 @@ font-weight: 700;
         border-radius: 12rem 12rem 0 0;
         overflow: hidden;
         padding: 5rem 1.5rem 1.5rem 1.5rem;
-    } */
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -117,7 +102,7 @@ font-weight: 700;
     .header__socials,.scroll__down{
         display: none;
     }
-    /* .me{
+    .me{
         background:linear-gradient(var(--color-primary), transparent) ;
         width: 22rem;
         height: 30rem;
@@ -127,5 +112,5 @@ font-weight: 700;
         border-radius: 12rem 12rem 0 0;
         overflow: hidden;
         padding: 5rem 1.5rem 1.5rem 1.5rem;
-    } */
+    }
 }

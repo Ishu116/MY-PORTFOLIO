@@ -49,10 +49,10 @@ const portfolio = () => {
           <div className='portfolio__item-image'>
           <img src={IMG4}></img>
           </div>
-          <h3>Color Guess Game</h3>
+          <h3>Camping Site</h3>
           <div className='portfolio__item-cta'>
-          <a href='https://github.com/Ishu116/Color-Guess-Game.git' className='btn' target='_blank'>GtiHub</a>
-          <a href='https://ishu116.github.io/Color-Guess-Game/' className='btn btn-primary' target='_blank'>Live Demo</a>
+          <a href='https://github.com/Ishu116/CAMPING_SITE' className='btn' target='_blank'>GtiHub</a>
+          <a href='https://camping-site-g3ke.onrender.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>

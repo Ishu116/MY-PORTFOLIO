@@ -4,6 +4,8 @@ import ME from "../../assets/me-about1.jpg"
 import {FaAward} from "react-icons/fa"
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from "react-icons/vsc"
+import { FaCertificate } from 'react-icons/fa'
+
 
 const about = () => {
   return (
@@ -25,9 +27,9 @@ const about = () => {
             <small>3+ Years Working</small>
           </article>
           <article className='about__card'>
-            <FiUsers className="about__icon" />
-            <h5>Clients</h5>
-            <small>200+ Clients</small>
+            <FaCertificate className="about__icon" />
+            <h5>Certificates</h5>
+            <small>5+ Certificates</small>
           </article>
           <article className='about__card'>
             <VscFolderLibrary className="about__icon" />
@@ -36,9 +38,7 @@ const about = () => {
           </article>
         </div>
         <p contentEditable='true'>
-        Hey there! I'm Jainendra, a student at SRM Institute of Science and Technology. I have learnt a lot and I still have a lot to learn. I really like Technological stuff and would like to work in this field. If you have any advice then DM me . 
-
-Nice meeting you.
+        Hey there, I am Jainendra,  currently pursuing a Bachelor of Engineering in Computer Science, and I am confident that my skills and knowledge will make me a valuable asset to any team. I am a highly motivated and results-oriented individual with a strong passion for technological statistics. I have a proven track record of success in learning and applying new concepts, and I am always eager to take on new challenges.
           {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis deleniti minima, optio doloremque laboriosam omnis velit accusantium cumque alias error nostrum, veritatis possimus necessitatibus perferendis dolore. Provident nisi mollitia eum! */}
         </p>
         <a href='#contact' className='btn btn-primary'>Let's Talk</a>
